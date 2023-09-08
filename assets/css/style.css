@@ -113,3 +113,264 @@ color: #FFA500;
 .bottom-arrow-btn{
     cursor: pointer;
 }
+main{
+    
+    display: flex;
+    justify-content: space-between;
+}
+.left-section{
+    width: 30%;
+    
+}
+.right-section{
+    width: 65%;
+}
+.right-section,
+.left-section
+{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+.about-me-card,
+.category-card,
+.details-card{
+width: 100%;
+background-color: white;
+padding: 10px;
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 15px;
+border: 1px solid #ccc;
+border-radius: 10px;
+
+}
+.about-me-card h3,
+.category-card h3,
+.details-card h3{
+ text-align: center;   
+}
+.about-me-card-img{
+    width: 100%;
+    
+}
+.about-me-card-img img{
+width: 100%;
+height: 100%;
+object-fit: contain;
+}
+.category-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.popular-post,
+ .recent-post,
+ .product-post,
+ .touch-post{
+width: 100%;
+background-color: white;
+padding: 20px;
+color: black;
+display: flex;
+align-items: center;
+justify-content: center;
+border: 1px solid #ccc;
+font-size: 20px;
+font-weight: 700;
+}
+.popular-post:hover,
+ .recent-post:hover,
+.product-post:hover,
+.touch-post:hover
+{
+    background-color: rgba(182, 178, 178, 0.301);
+}
+.tips-carousel{
+    width: 100%;
+    position: relative;
+}
+.tips-carousel img{
+    width: 100%;
+ object-fit: contain;
+}
+.tips-carousel .date,.tips-carousel .title{
+    
+    display: inline-block;
+    position: absolute;
+    left: 20px;
+    color: white;
+}
+.tips-carousel .title{
+    width: 18ch;
+    top: 65px;
+    font-size: 25px;
+}
+.tips-carousel .date{
+    width: 100%;
+    top: 15px;
+}
+.tips-carousel i{
+    position: absolute;
+    bottom: 30px;
+    color: blue;
+    padding: 8px;
+    background-color: white;
+    cursor: pointer;
+}
+.fa-angle-left{
+  
+    left: 20px;
+
+}
+.fa-angle-right{
+   
+    left: 60px;
+}
+.tips-blog{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.tips-blog-item{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.description{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.description .date{
+    font-weight: 500;
+    font-size: 18px;
+}
+.description .title{
+    font-weight: 600;
+    font-size: 18px;
+}
+.description .prize{
+    color: #0336FF;
+    font-size: 24px;
+}
+.description .product-name{
+    font-size: 18px;
+    font-weight: 600;
+}
+.details-card p{
+    text-align: center;
+    color: #0B0A0A;
+}
+.socials{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.social-item{
+    width: 48%;
+    height: 60px;
+     display: flex; 
+    justify-content: center;
+    align-items: center;
+    color: white; 
+    gap: 20px;
+}
+.fb-item{
+    background-color: #4056AC;
+}
+.ytb-item{
+    background-color: #FE2C3C;
+}
+.tw-item{
+    background-color: #60B7FE;
+}
+.insta-item{
+    background-color: #E14D93;
+} 
+
+
+/* start main right section */
+
+
+.right-section-blog-card{
+    width: 100%;
+   
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.right-section-blog-card >img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+span.blog-card-date{
+    border-left: 4px solid #FFA500;
+    padding-left: 10px;
+}
+.right-section-blog-card > h4{
+    font-size: 30px;
+    padding-left: 10px;
+}
+.right-section-blog-card > p{
+    font-size: 24px;
+    padding-left: 10px;
+}
+.blog-card-links-group{
+    padding:10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.blog-card-links-group >span{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.right-section-little-blog-parents{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.right-section-little-blog{
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.right-section-little-blog >img{
+    width:100%;
+}
+.right-section-little-blog >h4{
+    font-size: 30px;
+    padding-left: 10px;
+}
+.place-order{
+    background:url("../img/image\ 18.png") center no-repeat;
+    background-position: cover;
+    width:100%;
+    height: 400px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.place-order h2{
+    color: white;
+    font-size: 40px;
+}
+.place-order h2 >span{
+    color: #FFA500;
+    text-decoration: underline;
+}
