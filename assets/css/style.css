@@ -374,3 +374,30 @@ span.blog-card-date{
     color: #FFA500;
     text-decoration: underline;
 }
+
+
+
+/* start karusel */
+
+.slider-carousel{
+    width:100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.slider-carousel img{
+    width: 20%;
+}
+.slider-btn{
+    position: absolute;
+    left: 45%;
+    top: 45%;
+    padding: 15px 20px;
+    background-color: #0336FF;
+    color: white;
+    border-radius: 10px;
+}
+.slider-btn:hover{
+
+    background-color: #0a31ce;
+}
