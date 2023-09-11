@@ -11,7 +11,7 @@
     src: url(../fonts/Roboto-Regular.ttf);
 }
 .container {
-    max-width: 1200px;
+    max-width: 1000px;
     width: 100%;
     margin: 0 auto;
 
@@ -400,4 +400,113 @@ span.blog-card-date{
 .slider-btn:hover{
 
     background-color: #0a31ce;
+}
+.input-subcribe{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.subcribe-text{
+    padding: 100px 0;
+    font-size: 30px;
+    width: 25ch;
+}
+.subcribe-text >span{
+    color: #0336FF;
+}
+form.input-group{
+    display: flex;
+    gap: 10px;
+}
+form.input-group > input{
+    padding: 20px  40px 20px 15px;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+form.input-group > button{
+    padding: 20px 30px;
+    background-color: transparent;
+    outline: none;
+    background-color: #0336FF;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+/* start footer */
+.top-footer{
+    border-top: 2px solid #ccc;
+}
+.top-footer-content{
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+   gap: 20px;
+}
+
+.top-footer-content >a{
+    color:black;
+    font-weight: 900;
+   
+    width: 25%;
+   
+}
+
+
+.main-footer{
+    background: rgba(0, 0, 0, 0.68);
+    border-bottom: 1px solid #ccc;
+}
+.main-footer-content{
+    display: flex;
+    align-items: baseline;
+    padding: 40px 0 100px 0;
+    gap:20px;
+}
+
+.footer-item{
+  
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: #eee;
+    width: 25%;
+}
+
+.footer-item>ul>li>a{
+    color: #eee;
+}
+
+.footer-item>a{
+    color: #eee;
+}
+
+.footer-item>ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.bottom-footer{
+    background: rgba(0, 0, 0, 0.68);
+}
+.bottom-footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0 50px 0;
+
+}
+.social-group{
+    display: flex;
+    gap: 10px;
+}
+.social-group>a{
+    color: white;
+    font-size: 20px;
+}
+.bottom-footer-content>p{
+    color: white;
 }
