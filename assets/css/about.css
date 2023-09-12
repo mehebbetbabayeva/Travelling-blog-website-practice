@@ -1,0 +1,114 @@
+header{
+    height: 100vh;
+    background: url("../img/about-bg.png") center no-repeat;
+    background-size: cover;
+}
+
+.about-text{
+    font-size: 64px;
+    color: #FFF;
+    font-weight: 800;
+}
+.about-us{
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.about-us>p:first-child{
+color: #4E4B66;
+width: 26ch;
+font-size: 40px;
+}
+.about-us>p:last-child{
+    font-weight: 700;
+    font-size: 18px;
+ text-align: justify;
+ line-height: 40px;
+    width: 50%;
+    
+    }
+.about-us>p>span{
+    color: #14142B;
+}
+.about-us>p>a{
+    color: #FFA500;
+    text-decoration: underline;
+}
+
+.about-information{
+    padding: 100px 0;
+}
+.information-img {
+    width: 100%;
+    height: 500px;
+}
+.information-img >img{
+    width: 100%;
+    object-fit: cover;
+}
+.about-information >p{
+    text-align: justify;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 40px;
+}
+.text-content{
+    padding: 50px 0;
+    display: flex;
+  justify-content: space-between;
+}
+.text-content-left{
+    width: 50%;
+    text-align: justify;
+}
+.text-content-right{
+    width: 45%;
+    text-align: justify;
+}
+.text-content h2,.text-content p{
+    padding: 10px 0;
+}
+.text-content p{
+    font-size: 18px;
+}
+.text-content h2{
+    font-size: 30px;
+    font-weight: 400;
+}
+.text-content h3{
+    font-size: 24px;
+    font-weight: 400;
+}
+.text-content li{
+    padding: 5px 0;
+}
+.text-content li::before{
+    content: ">";
+
+}
+.about-img{
+    display: flex;
+align-items: center;
+justify-content: space-evenly;
+padding: 50px 0;
+background: #EDEDED;
+mix-blend-mode: darken;
+}
+.about-cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+.about-card-item{
+    padding: 50px;
+    border-radius: 30px;
+background: #FFF;
+box-shadow: 0px 2.76726px 6.22633px 0px rgba(0, 0, 0, 0.02), 0px 6.6501px 14.96273px 0px rgba(0, 0, 0, 0.03), 0px 12.52155px 28.17349px 0px rgba(0, 0, 0, 0.04), 0px 22.33631px 50.25669px 0px rgba(0, 0, 0, 0.04), 0px 41.77761px 93.99962px 0px rgba(0, 0, 0, 0.05), 0px 100px 225px 0px rgba(0, 0, 0, 0.07);
+    width: 25%;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
