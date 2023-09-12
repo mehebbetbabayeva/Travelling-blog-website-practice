@@ -1,15 +1,16 @@
 header{
-    height: 100vh;
-    background: url("../img/about-bg.png") center no-repeat;
+    background: url("../img/about-bg.png") top no-repeat;
     background-size: cover;
 }
 
-.about-text{
+.welcome-word{
+    padding: 100px 0;
     font-size: 64px;
     color: #FFF;
     font-weight: 800;
 }
 .about-us{
+    width: 100%;
     padding: 100px 0;
     display: flex;
     align-items: center;
