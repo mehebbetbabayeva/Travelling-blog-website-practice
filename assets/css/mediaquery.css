@@ -1,0 +1,143 @@
+@media screen and (min-width:320px) and (max-width:480px) {
+    .mobile-menu-icon {
+        display: block;
+        color: orange;
+        font-size: 30px;
+        cursor: pointer;
+    }
+
+    .header-menu {
+        display: none;
+    }
+
+    .header-navigation {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 10px;
+    }
+
+    .welcome-text h2 {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .welcome-text h1 {
+        font-size: 30px;
+        width: 18ch;
+    }
+
+    .read-more-btn {
+        padding: 10px 20px;
+
+    }
+
+    .welcome-text p {
+        font-size: 18px;
+    }
+
+    .fixed-location-icon {
+        display: none;
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+    .left-section,
+    .right-section {
+        width: 100%;
+    }
+
+    .right-section-little-blog>h4 {
+        font-size: 20px;
+        padding-left: 5px;
+    }
+
+    .right-section-little-blog>.blog-card-links-group {
+        padding: 0;
+        flex-direction: column;
+    }
+
+    .blog-card-links-group>span {
+        font-size: 16px;
+        gap: 10px;
+
+    }
+
+    .right-section-blog-card>img {
+
+        height: 200px;
+
+    }
+
+    .right-section-blog-card>h4 {
+        font-size: 20px;
+    }
+
+    .right-section-blog-card>p {
+        font-size: 18px;
+    }
+
+    .place-order {
+
+        width: 100%;
+        height: 200px;
+        padding: 10px;
+
+
+    }
+
+    .place-order h2 {
+
+        font-size: 20px;
+    }
+
+    
+    
+    .input-subcribe {
+        padding-bottom: 50px;
+      flex-direction: column;
+       
+    }
+    .subcribe-text {
+        padding: 50px 0;
+        font-size: 20px;
+       
+    }
+    form.input-group > input {
+        padding: 5px 20px 5px 5px;
+        
+    }
+    .header-logo{
+        width: 80px;
+        height: 80px;
+        flex-grow: 0;
+   
+    }
+    .header-logo img{
+
+        width: 100%;
+        object-fit: cover;
+    }
+    .top-footer-content {
+       display: none;
+    }
+    .main-footer-content {
+       flex-direction: column;
+        align-items: baseline;
+        padding: 40px 10px ;
+        gap: 20px;
+    }
+    .bottom-footer-content{
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        padding: 20px 10px;
+        gap: 20px;
+    }
+    
+    .footer-item{
+        width: 100%;
+    }
+}
