@@ -385,7 +385,29 @@ span.blog-card-date{
 
 
 /* start karusel */
+.slider-container {
+    overflow: hidden;
+    width: 100%;
+}
 
+.slider {
+    display: flex;
+    animation: slideAnimation 15s linear infinite; 
+}
+
+
+
+@keyframes slideAnimation {
+    0% {
+        transform: translateX(0);
+    }
+   
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+/* 
 div.highway-slider {
 	display:flex;
 	justify-content:center;
@@ -442,7 +464,7 @@ div.highway-barrier {
    
         width: 20%;
     
-}
+} */
 
 .slider-btn{
     position: absolute;
